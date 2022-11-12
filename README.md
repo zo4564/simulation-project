@@ -53,3 +53,9 @@ Użytkownik może wyeksportować dane z symulacji – po przyciśnięciu przycis
 ## PODSUMOWANIE
 
 Projekt spełnia swoje zadanie – po wykonaniu symulacji z różnymi parametrami widać, że zwierzęta ewoluują i dostosowują się do środowiska. Ponadto w trakcie symulacji można wytrenować populację. Jest to bardzo ciekawe zjawisko: jeśli ustalimy geny zwierzętom i damy zbyt mało jedzenia to populacja umrze. Natomiast jeśli zadamy te same geny i zaczniemy od wystarczającej ilości pożywienia, a następnie będziemy stopniowo zmniejszać ilość – to okaże się że udało się wytrenować populację i zwierzęta ewoluowały do korzystania z małej ilości pokarmu. Program jest stosunkowo łatwo rozwijać, istnieje możliwość dodania innych gatunków zwierząt np. drapieżników, które będą zjadały zwierzęta.
+
+## WYGLĄD SYMULACJI
+
+![1](https://user-images.githubusercontent.com/101990687/201497274-bd4dfeab-98cf-4d2a-99ac-cf6e6a06032f.png)
+![2](https://user-images.githubusercontent.com/101990687/201497279-9d2afd6d-a2ea-4426-b6e0-0451f0898656.png)
+![3](https://user-images.githubusercontent.com/101990687/201497277-79bcf06b-7a41-4979-87d7-c6504ed43d06.png)
