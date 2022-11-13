@@ -2,7 +2,7 @@
 
 Projekt ten został napisany w języku C# na silniku Unity Engine. Jest utrzymany w konwencji gry - symulacji, z której można na koniec wyeksportować dane. Użytkownik na wejściu może ustawić dane, które realnie wpływają na przebieg symulacji. 
 
-W repozytorium znajduje się plik Simulation.exe, który uruchomi aplikację bez potrzeby instalacji dodatkowych bibliotek.
+**W repozytorium znajduje się plik Simulation.exe, który uruchomi aplikację bez potrzeby instalacji dodatkowych bibliotek.**
 
 Do stworzenia projektu zainspirował mnie [ten film o doborze naturalnym.](https://www.youtube.com/watch?v=0ZGbIKd0XrM)
 
@@ -17,15 +17,19 @@ W programie pojawia się element Environment – jest to „świat”, który ko
 ## ZWIERZĘTA ŻYJĄCE W SYMULACJI
 
 **Genotyp**
+
 Każde zwierzę posiada swój genotyp, na który składa się gen Vision Radius – zasięg wzroku, gen określa jak daleko zwierzę może wyczuć pożywienie. Od tego genu zależy między innymi sposób poruszania się zwierzęcia. Zwierzęta o słabym wzroku poruszają się krótkimi ruchami i często zmieniają kierunek ruchu. Drugim genem, który wchodzi w skład genotypu jest Speed, czyli gen odpowiedzialny za prędkość poruszania się zwierzęcia. Prędkość ta ma bezpośredni wpływ na to jak szybko zwierzę staje się głodne i ile zużywa energii. Im bardziej u danego zwierzęcia przeważa gen Speed tym bardziej jest żółte, a im bardziej przeważa gen Vision Radius tym bardziej jest niebieskie. Jeśli oba geny mają wysokie wartości to kolor zwierzęcia zbliża się do białego. Podstawowym kolorem zwierząt jest zielony.
 
 **Parametry**
+
 Oprócz genotypu każde zwierzę posiada parametry życiowe, czyli Staminę oraz Hunger (głód). Na te parametry ma wpływ sposób poruszania się zwierzęcia. Jeśli zwierzę zauważy w trakcie dnia, że jest zmęczone może wrócić na chwilę do domu i odpocząć – przybywa mu wtedy staminy.
 
 **Rozmnażanie**
+
 Zwierzęta rozmnażają się jeśli uda im się zdobyć odpowiednią ilość pożywienia. Im lepszy wzrok ma dane zwierzę tym więcej pożywienia potrzebuje do rozrodu. Rozmnażanie zachodzi tylko kiedy znajdują się w domu, tworzą wtedy swoją lekko zmutowaną kopię – przekazują swoje geny z losowymi, małymi zmianami. Istnieje 5% szansy na powstanie odmieńca, czyli zwierzęcia, które byłoby znacząco odmienne od swojego rodzica.
 
 **Zachowanie**
+
 Zwierzęta korzystają z wzorca projektowego maszyna stanów – dzięki temu mogą „decydować” co chcą robić. Każde zwierzę posiada stany:
 
  - **Hunt** – w tym stanie zwierzę porusza się po mapie i poszukuje
